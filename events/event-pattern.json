@@ -1,0 +1,4 @@
+   {
+     "source": ["com.empresa.warehouse"],
+     "detail-type": ["PackageReceived"]
+   }

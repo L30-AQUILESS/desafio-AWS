@@ -1,0 +1,7 @@
+[
+  {
+    "Source": "com.empresa.warehouse",
+    "DetailType": "PackageReceived",
+    "Detail": "{\"packageId\":\"PKG-1002\",\"customerId\":\"CUST-501\",\"warehouseId\":\"WH-01\",\"items\":[],\"status\":\"NEW\"}"
+  }
+]

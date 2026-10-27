@@ -1,0 +1,17 @@
+services:
+  localstack:
+    image: localstack/localstack:4.4
+    container_name: localstack
+    ports:
+      - "4566:4566"
+    environment:
+      - SERVICES=events,lambda,sqs,logs,iam,sts
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock
+      - ./:/workspace
+
+      
+# docker-compose.yml
+# Descreve o container do LocalStack, que simula a AWS no meu PC.
+# O comando "docker compose up -d" lê este arquivo e liga o container.
+# O comando "docker compose down" desliga e remove.
